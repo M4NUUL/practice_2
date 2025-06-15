@@ -147,7 +147,6 @@ void showMenu()
    std::cout << "4. Проверка задания №4" << std::endl;
    std::cout << "5. Проверка задания №5" << std::endl;
    std::cout << "6. Проверка задания №6" << std::endl;
-   std::cout << "7. Проверка задания №7" << std::endl;
    std::cout << "0. Выход" << std::endl;
    std::cout << "Выбор: ";
 }
@@ -425,12 +424,6 @@ int main()
 
             attackTest.close();
 
-            std::cout << std::endl;
-            showMenu();
-            break;
-         }
-         case 7:
-         {
             std::cout << std::endl;
             showMenu();
             break;
