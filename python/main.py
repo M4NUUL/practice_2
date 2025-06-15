@@ -1,7 +1,7 @@
 import sys
-from ferm import is_prime, theorem_ferma, fast_power_mod
-from evclid import inverse_element, extended_gcd
-from rsa import rsa_generate_keys, mod_pow  # mod_pow = fast modular exponentiation
+from ferm import *
+from evclid import *
+from rsa import *
 
 def safe_int_input(prompt, err_msg):
     try:
