@@ -28,8 +28,8 @@ def task1():
     if not is_prime(p):
         print("Число не простое, теорема Ферма не применима.\n")
         return
-    print("Результат бинарным разложением:", theorem_ferma(a, exp, p))
-    print("Результат через быстрое возведение в степень:", fast_power_mod(a, exp, p))
+    print("Результат бинарным разложением:", theorem_fermat(a, exp, p))
+    print("Результат через быстрое возведение в степень:", fast_power_log(a, exp, p))
     print()
 
 def task2():
